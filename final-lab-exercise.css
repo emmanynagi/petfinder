@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+}
+
+body{
+    background: #F6F6F6;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #242539;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+ul{
+    list-style: none;
+    width: 620px;
+    color: #fff;
+    margin: 0 auto;
+}
+
+ul li{
+    width: 100px;
+    height: 60px;
+    display: inline-block;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+ul li:hover{
+    background: #AAA5A5;
+}
+
+.container{
+    width: 100%;
+}
+
+.content{
+    padding: 245px 450px;
+    color: #fff;
+    text-align: center;
+    background-image: url("pet-adoption.png");
+}
+
+.btn {
+    margin-top: 20px;
+    display: inline-block;
+    background-color: #B1A8A6;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+footer{
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background: #242539;
+}
+
+footer p{
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff;
+    height: fit-content;
+}
